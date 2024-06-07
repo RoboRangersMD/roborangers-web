@@ -1,0 +1,44 @@
+html {
+    font-size: 12px;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    overflow-x: hidden;
+}
+
+    html::-webkit-scrollbar {
+        display: none;
+    }
+
+@media (min-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1000px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.teachers-font {
+    font-family: "Teachers", sans-serif;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+}
+
+.footer {
+
+}
+
+.footer-hr {
+
+}
+
+.footer-text {
+    font-size: 1.3rem;
+    margin: 2.5rem;
+}

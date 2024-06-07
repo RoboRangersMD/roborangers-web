@@ -1,0 +1,41 @@
+﻿@media only screen and (max-width: 768px) {
+    .navbar-item {
+        display:none;
+    }
+}
+
+.navbar-container {
+    z-index: 999;
+    position: absolute;
+    color: white;
+    width: calc(100vw - 8rem);
+    height: 150px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0 4rem;
+}
+
+.navbar-brand {
+    margin-left: 0;
+    margin-right: auto;
+    font-size: 3rem;
+}
+
+.navbar-item {
+    margin: 0 1.5rem;
+    font-size: 2rem;
+}
+
+.blue-border {
+    padding: 1rem 2rem;
+    border: solid;
+    border-width: 4px;
+    border-color: #4190F1;
+    transition-duration: 0.3s;
+}
+
+    .blue-border:hover {
+        transition-duration: 0.3s;
+        background-color: #4190F1;
+    }

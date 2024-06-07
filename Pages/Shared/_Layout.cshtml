@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/RoboRangers.Web.styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
+    <script src="~/js/site.js" defer></script>
+</head>
+<body class="teachers-font">
+    <header>
+        <partial name="_Header" />
+    </header>
+    <div>
+        @RenderBody()
+    </div>
+
+    <footer>
+        <div class="footer">
+            <hr class="footer-hr"/>
+            <div class="footer-text">
+                © RoboRangers 2024
+            </div>
+        </div>
+    </footer>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
