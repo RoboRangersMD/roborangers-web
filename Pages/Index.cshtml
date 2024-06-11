@@ -1,1 +1,118 @@
-﻿
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="container-100vh container-padding hero-big-container">
+    <div class="bg-image"><img src="~/images/herosectionimg.jpg" /></div>
+    <div class="flex-centered hero-small-container color-white">
+        <div class="hero-heading fs-heading teachers-medium">Empowering Tomorrow's Innovators</div>
+        <div class="default-btn color-white" id="view-more">View More</div>
+        <hr class="hero-hr" />
+        <div class="hero-subheading fs-content">Meet the team behind RoboRangers.</div>
+    </div>
+</div>
+<div class="container-100vh container-padding flex-centered mission-container" id="view-more-target">
+    <div class="mission-image">
+        <img src="~/images/house.jpg" class="br-12px" />
+    </div>
+    <div>
+        <div class="mission-heading fs-heading teachers-medium lightbg-heading">
+            Our Mission
+        </div>
+        <div class="mission-content fs-content">
+            <span class="text-blue">“</span>To give the right tools to the right people and provide a comfortable environment for growth and success, building a future powered by creativity and engineering.<span class="text-blue">”</span>
+        </div>
+    </div>
+</div>
+<div class="container-100vh container-padding flex-centered flex-column philosophy-container">
+    <div class="bg-image"><img src="~/images/philosophyimg.jpg" /></div>
+    <div class="fs-heading teachers-medium darkbg-heading text-center">
+        Team Philosophy
+    </div>
+    <div class="fs-content color-white text-center">
+        Our philosophy is built on the belief that hard work defines who we are and that every challenge is an opportunity for growth. We push our limits and constantly strive for improvement. Together, we are shaping the future through dedication, teamwork, and a shared passion for discovery.
+    </div>
+    <div class="default-btn color-white" id="view-team">View Team</div>
+</div>
+<div class="container-padding flex-centered team-container" id="view-team-target">
+    <div class="team-heading fs-heading teachers-medium lightbg-heading">Meet The Team</div>
+    <div class="team-members-container">
+        @for (int i = 0; i < 8; i++)
+        {
+            <div class="team-member"><img src="~/images/philosophyimg.jpg" class="br-12px" /></div>
+        }
+    </div>
+</div>
+<div class="fll-img-container container-padding flex-centered flex-column">
+    <img src="~/images/teamphoto.jpg" class="br-12px" />
+    <div class="fs-content teachers-medium text-center">FLL Final 2024 Champions, Moldova</div>
+</div>
+<div class="container-100vh container-padding flex-centered more-container">
+    <div>
+        <div class="more-heading fs-heading teachers-medium lightbg-heading">
+            More About The Team
+        </div>
+        <div class="more-content fs-content">
+            Founded in 2015, RoboRangers has proudly participated in both national and international competitions, consistently striving to uphold our team’s legacy of excellence and remarkable achievements.
+        </div>
+    </div>
+    <div class="mission-image">
+        <img src="~/images/stringbuddy.jpg" class="br-12px" />
+    </div>
+</div>
+<div class="container-padding achievements-section flex-centered flex-column">
+    <div class="fs-heading teachers-medium lightbg-heading text-center">Past Achievements</div>
+    <div class="past-achievements">
+        <div class="achievement-section">
+            <img src="~/images/philosophyimg.jpg" class="br-12px" />
+        </div>
+        <div class="achievement-section flex-centered">
+            <div class="fs-content">
+                Champions 20xx <br />
+                396 point run
+            </div>
+        </div>
+        <div class="achievement-section flex-centered">
+            <div class="fs-content">
+                Champions 20xx <br />
+                396 point run
+            </div>
+        </div>
+        <div class="achievement-section">
+            <img src="~/images/philosophyimg.jpg" class="br-12px" />
+        </div>
+        <div class="achievement-section">
+            <img src="~/images/philosophyimg.jpg" class="br-12px" />
+        </div>
+        <div class="achievement-section flex-centered">
+            <div class="fs-content">
+                Champions 20xx <br />
+                396 point run
+            </div>
+        </div>
+        <div class="achievement-section flex-centered">
+            <div class="fs-content">
+                Champions 20xx <br />
+                396 point run
+            </div>
+        </div>
+        <div class="achievement-section">
+            <img src="~/images/philosophyimg.jpg" class="br-12px" />
+        </div>
+    </div>
+</div>
+<div class="container-padding sponsor-section">
+    <div class="fs-heading teachers-medium lightbg-heading text-center">Our Sponsor</div>
+    <img src="~/images/tekwill.png" />
+</div>
+<div class="container-padding flex-centered contact-section">
+    <div class="contact-image"><img src="~/images/thankyou.jpg" class="br-12px" /></div>
+    <div class="contact-links flex-centered flex-column">
+        <div class="fs-heading teachers-medium lightbg-heading text-center">Contact Us</div>
+        <a class="default-btn color-white" href="https://www.instagram.com/roborangers.md/" target="_blank">Instagram</a>
+        <a class="default-btn color-white" href="https://www.youtube.com/@@RoboRangersMD" target="_blank">YouTube</a>
+        <div class="text-center fs-content">Email:<br />roborangers2015@gmail.com</div>
+    </div>
+</div>

@@ -1,1 +1,28 @@
-﻿
+﻿.header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 134px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    color: white;
+}
+
+.header-brand {
+    font-size: 3rem;
+}
+
+.header-logo {
+    width: 64px;
+    height: 64px;
+}
+
+.header-contactus {
+    display: none;
+}
+
+.contact-arrow {
+
+}

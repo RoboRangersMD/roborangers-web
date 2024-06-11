@@ -1,1 +1,121 @@
-﻿
+﻿.bg-image {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    right: 0;
+    filter: brightness(70%);
+    z-index: -999;
+}
+
+.hero-big-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.hero-small-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 3rem;
+    margin-bottom: 6rem;
+}
+
+.hero-heading {
+    text-align: center;
+}
+
+.hero-hr {
+    display: none;
+}
+
+.hero-subheading {
+    text-align: center;
+}
+
+.mission-container {
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.mission-image {
+    width: 100%;
+}
+
+.mission-heading {
+    text-align: center;
+}
+
+.mission-content {
+    text-align: center;
+}
+
+.philosophy-container {
+    gap: 2rem;
+}
+
+.team-container {
+    flex-direction: column;
+    margin: 4rem 0;
+    gap: 2rem;
+}
+
+.team-heading {
+    text-align: center;
+}
+
+.team-members-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    row-gap: 2rem;
+}
+
+.team-member {
+    width: 45%;
+}
+
+.fll-img-container {
+    margin: 4rem 0;
+}
+
+.more-container {
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.more-heading {
+    text-align: center;
+}
+
+.more-content {
+    text-align: center;
+}
+
+.achievements-section {
+    gap: 2rem;
+}
+
+.past-achievements {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    row-gap: 2rem;
+}
+
+.achievement-section {
+    width: 45%;
+}
+
+.sponsor-section {
+    margin: 8rem 0;
+}
+
+.contact-section {
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact-links {
+    gap: 2rem;
+}
