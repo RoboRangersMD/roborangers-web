@@ -10,7 +10,7 @@
 .hero-big-container {
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: center;
 }
 
 .hero-small-container {
@@ -18,7 +18,6 @@
     flex-direction: column;
     justify-content: end;
     gap: 3rem;
-    margin-bottom: 6rem;
 }
 
 .hero-heading {
@@ -118,8 +117,6 @@
 
 @media only screen and (min-width: 768px) {
     .hero-big-container {
-        display: flex;
-        flex-direction: column;
         justify-content: end;
     }
 
