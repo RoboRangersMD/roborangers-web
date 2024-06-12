@@ -1,41 +1,50 @@
-﻿@media only screen and (max-width: 768px) {
-    .navbar-item {
-        display:none;
-    }
-}
-
-.navbar-container {
-    z-index: 999;
+﻿.header {
     position: absolute;
-    color: white;
-    width: calc(100vw - 8rem);
-    height: 150px;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
-    padding: 0 4rem;
+    height: 134px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    color: white;
 }
 
-.navbar-brand {
-    margin-left: 0;
-    margin-right: auto;
+.header-brand {
     font-size: 3rem;
 }
 
-.navbar-item {
-    margin: 0 1.5rem;
-    font-size: 2rem;
+.header-logo {
+    width: 64px;
+    height: 64px;
 }
 
-.blue-border {
-    padding: 1rem 2rem;
-    border: solid;
-    border-width: 4px;
-    border-color: #4190F1;
-    transition-duration: 0.3s;
+.header-contactus-btn {
+    display: none;
 }
 
-    .blue-border:hover {
-        transition-duration: 0.3s;
+@media only screen and (min-width: 768px) {
+    .header-contactus-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid #4190F1;
+        height: 3rem;
+        padding: 0 2rem;
+        border-radius: 3rem;
+        transition: background-color 0.3s;
+    }
+
+    .header-contactus-btn:hover {
         background-color: #4190F1;
     }
+
+    .header-contactus {
+        font-size: 1.5rem;
+    }
+
+    .contact-arrow {
+        width: 36px;
+        height: 30px;
+    }
+}

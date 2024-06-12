@@ -14,20 +14,17 @@
 
     <script src="~/js/site.js" defer></script>
 </head>
-<body class="teachers-font">
+<body class="teachers-regular">
     <header>
         <partial name="_Header" />
     </header>
     <div>
         @RenderBody()
     </div>
-
-    <footer>
-        <div class="footer">
-            <hr class="footer-hr"/>
-            <div class="footer-text">
-                © RoboRangers 2024
-            </div>
+    <footer class="container-padding footer">
+        <hr class="footer-hr" style="color: #000; background-color: #000;" />
+        <div class="fs-content">
+            © RoboRangers 2024
         </div>
     </footer>
 

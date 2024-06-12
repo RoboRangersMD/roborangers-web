@@ -4,184 +4,112 @@
     ViewData["Title"] = "Home";
 }
 
-<img src="~/images/img_0103.jpg" style="
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    filter: brightness(0.3);">
-
-<div class="hero-container">
-    <div class="hero-content">
-        <div class="hero-text1">
-            <div class="hero-text1-content">
-                Empowering tomorrow's innovators
-            </div>
+<div class="container-100vh container-padding hero-big-container">
+    <div class="bg-image"><img src="~/images/herosectionimg.jpg" /></div>
+    <div class="flex-centered hero-small-container color-white">
+        <div class="hero-heading fs-heading teachers-medium">Empowering Tomorrow's Innovators</div>
+        <div class="default-btn color-white" id="view-more">View More</div>
+        <hr class="hero-hr" />
+        <div class="hero-subheading fs-content">Meet the team behind RoboRangers.</div>
+    </div>
+</div>
+<div class="container-100vh container-padding flex-centered mission-container" id="view-more-target">
+    <div class="mission-image">
+        <img src="~/images/house.jpg" class="br-12px" />
+    </div>
+    <div class="mission-small-container">
+        <div class="mission-heading fs-heading teachers-medium lightbg-heading">
+            Our Mission
         </div>
-        <div class="hero-text2">
-            <div class="hero-text2-content">
-                Meet the team behind RoboRangers.
-            </div>
+        <div class="mission-content fs-content">
+            <span class="text-blue">“</span>To give the right tools to the right people and provide a comfortable environment for growth and success, building a future powered by creativity and engineering.<span class="text-blue">”</span>
         </div>
     </div>
 </div>
-<div class="mission-container">
-    <div class="mission-image-container">
-        <img src="~/images/92cb2622-3717-4316-9e85-fe5f4308757b.jpg" style="
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 12px;" />
+<div class="container-100vh container-padding flex-centered flex-column philosophy-container">
+    <div class="bg-image"><img src="~/images/philosophyimg.jpg" /></div>
+    <div class="fs-heading teachers-medium darkbg-heading text-center">
+        Team Philosophy
     </div>
-    <div class="mission-text">
-        <div class="mission-heading">Our mission</div>
-        <div class="mission-content">At RoboRangers we believe in giving the right tools to the right people. We provide not only the tools and resources needed to thrive but also the encouragement and inspiration that come from seeing the rewards of hard work and discipline. Together, let's build a future powered by creativity and teamwork.</div>
+    <div class="fs-content color-white text-center philosophy-content">
+        Our philosophy is built on the belief that hard work defines who we are and that every challenge is an opportunity for growth. We push our limits and constantly strive for improvement. Together, we are shaping the future through dedication, teamwork, and a shared passion for discovery.
     </div>
+    <div class="default-btn color-white" id="view-team">View Team</div>
 </div>
-<div class="philosophy-container">
-    <div class="philosophy-left">
-        <div class="philosophy-left-inner">
-            <img src="~/images/alex-harmuth-sudvyp1m-qm-unsplash.jpg" style="
-                width: 100%;
-                height: 100%;
-                object-fit: cover;" />
-        </div>
-    </div>
-    <div class="philosophy-center">
-        <div class="philosophy-heading">
-            Team philosophy
-        </div>
-        <div class="philosophy-content">
-            At RoboRangers, our philosophy is built on the belief that hard work defines who we are and that every challenge is an opportunity for growth. We push our limits and constantly strive for improvement. We recognize that different perspectives lead to more creative solutions, and we embrace this diversity to prepare our members to be pioneers in the field of robotics and technology. Together, we are shaping the future through dedication, teamwork, and a shared passion for discovery.
-        </div>
-    </div>
-    <div class="philosophy-right">
-        <div class="philosophy-right-inner">
-            <img src="~/images/tingey-injury-law-firm-ljhxyhxpfey-unsplash.jpg" style="
-                width: 100%;
-                height: 100%;
-                object-fit: cover;" />
-        </div>
-    </div>
-</div>
-<div class="team-container">
-    <div class="team-heading">
-        Team members
-    </div>
-    @for (int i = 0; i < 15; i++)
-    {
-        <div class="team-member-card">
-            <div class="team-member-photo-container">
-                <img src="~/images/img_1932.jpg" style="
-                        width: 100%;
-                        height: 100%;
-                        object-fit: cover;
-                        border-radius: 12px;" />
-            </div>
-            <div class="team-member-name">
-                Crispyy
-            </div>
-            <div class="team-member-desc">
-                FLL, FTC
-            </div>
-        </div>
-    }
-</div>
-
-<img src="~/images/420187267_824807349685809_328773385354254213_n.jpg" style="
-    margin: 0 5vw;
-    width: 90vw;
-    height: 90vh;
-    object-fit: cover;
-    border-radius: 12px;" />
-<div style="font-size: 2rem; width: 100vw; text-align: center;">FLL Final 2024 Champions, Moldova</div>
-
-<div class="more-container">
-    <div class="more-heading">
-        More about team
-    </div>
-    <div class="more-container2">
-        <div class="more-content">
-            Founded in 2015, RoboRangers has proudly participated in both national and international competitions, consistently striving to uphold our team’s legacy of excellence and remarkable achievements. Since our inception, we have been active participants in the First Lego League and this year, we are thrilled to compete in the First Tech Challenge alongside 11 other teams from Moldova.
-        </div>
-        <div class="more-image">
-            <img src="~/images/a64fa07a-fe3a-475d-aefc-560f1e1c7e4b.jpg" style="
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                border-radius: 12px; " />
-        </div>
-    </div>
-</div>
-
-<div class="testimonials-container">
-    <div class="testimonials-heading">
-        Listen to what our members have to say
-    </div>
-    <div class="testimonials-scrolling">
-        @for (int i = 0; i < 3; i++)
+<div class="container-padding flex-centered team-container" id="view-team-target">
+    <div class="text-center fs-heading teachers-medium lightbg-heading">Meet The Team</div>
+    <div class="team-members-container">
+        @for (int i = 0; i < 8; i++)
         {
-            <div class="testimonial">
-                <div class="testimonial-image">
-                    <img src="~/images/img_1932.jpg" style="
-                        width: 100%;
-                        height: 100%;
-                        border-radius: 50%;
-                        object-fit: cover;" />
-                </div>
-                <div class="testimonial-name">
-                    Crispyy
-                </div>
-                <div class="testimonial-content">
-                    "Good team Good team Good team Good team Good team Good team Good teams Good team Good team Good team Good team Good team Good team Good teams"
-                </div>
-            </div>
-        }
-        <div class="testimonial-blue-bg">
-        </div>
-    </div>
-</div>
-
-<div class="sponsors-container" id="sponsors">
-    <div class="sponsors-heading">
-        Our sponsors
-    </div>
-    <div class="sponsors-images">
-        @for (int i = 0; i < 3; i++)
-        {
-            <div class="sponsor-image">
-                <img src="~/images/google.png" style="
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;" />
-            </div>
+            <div class="team-member"><img src="~/images/philosophyimg.jpg" class="br-12px" /></div>
         }
     </div>
 </div>
-
-<div id="contact-cta" class="cta-container">
-    <div class="cta-left">
-        Contact us Contact us Contact us
+<div class="fll-img-container container-padding flex-centered flex-column">
+    <div class="fll-image"><img src="~/images/teamphoto.jpg" class="br-12px" /></div>
+    <div class="fs-content teachers-medium text-center">FLL Final 2024 Champions, Moldova</div>
+</div>
+<div class="container-100vh container-padding flex-centered more-container">
+    <div class="more-small-container">
+        <div class="more-heading fs-heading teachers-medium lightbg-heading">
+            More About The Team
+        </div>
+        <div class="more-content fs-content">
+            Founded in 2015, RoboRangers has proudly participated in both national and international competitions, consistently striving to uphold our team’s legacy of excellence and remarkable achievements.
+        </div>
     </div>
-    <div class="cta-right">
-        Contact us Contact us Contact us
+    <div class="mission-image">
+        <img src="~/images/stringbuddy.jpg" class="br-12px" />
     </div>
-    <div class="cta-image">
-        <img src="~/images/img_7331.jpg" style="
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 12px;" />
+</div>
+<div class="container-padding achievements-section flex-centered flex-column">
+    <div class="fs-heading teachers-medium lightbg-heading text-center">Past Achievements</div>
+    <div class="past-achievements">
+        <div class="achievement-section">
+            <img src="~/images/IMG_0250.jpg" class="br-12px" />
+        </div>
+        <div class="achievement-section flex-centered">
+            <div class="fs-content">
+                -Champions 2024 <br />
+                -Double Max Points
+            </div>
+        </div>
+        <div class="achievement-section flex-centered">
+            <div class="fs-content">
+                -Champions 2023
+            </div>
+        </div>
+        <div class="achievement-section">
+            <img src="~/images/IMG_0251.jpg" class="br-12px" />
+        </div>
+        <div class="achievement-section">
+            <img src="~/images/IMG_0253.jpg" class="br-12px" />
+        </div>
+        <div class="achievement-section flex-centered">
+            <div class="fs-content">
+                -Champions 2022
+            </div>
+        </div>
+        <div class="achievement-section flex-centered">
+            <div class="fs-content">
+                -Champions 2019
+            </div>
+        </div>
+        <div class="achievement-section">
+            <img src="~/images/IMG_0252.jpg" class="br-12px" />
+        </div>
     </div>
-    <div class="cta-heading">
-        Drop us a message
-    </div>
-    <a class="cta-button">
-        Instagram
-    </a>
-    <div class="cta-sendemail">
-        Or send us an email at
-    </div>
-    <div class="cta-email">
-        roborangers2015@gmail.com
+</div>
+<div class="container-padding sponsor-section flex-centered flex-column">
+    <div class="fs-heading teachers-medium lightbg-heading text-center">Our Sponsor</div>
+    <div class="sponsor-img"><img src="~/images/tekwill.png" /></div>
+</div>
+<div class="container-padding flex-centered contact-section" id="contact-button-target">
+    <div class="contact-image"><img src="~/images/thankyou.jpg" class="br-12px" /></div>
+    <div class="contact-links flex-centered flex-column">
+        <div class="fs-heading teachers-medium lightbg-heading text-center">Contact Us</div>
+        <a class="default-btn color-white" href="https://www.instagram.com/roborangers.md/" target="_blank">Instagram</a>
+        <a class="default-btn color-white" href="https://www.youtube.com/@@RoboRangersMD" target="_blank">YouTube</a>
+        <div class="text-center fs-content">Email:<br />roborangers2015@gmail.com</div>
     </div>
 </div>
