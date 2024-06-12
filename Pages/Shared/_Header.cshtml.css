@@ -19,10 +19,32 @@
     height: 64px;
 }
 
-.header-contactus {
+.header-contactus-btn {
     display: none;
 }
 
-.contact-arrow {
+@media only screen and (min-width: 768px) {
+    .header-contactus-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid #4190F1;
+        height: 3rem;
+        padding: 0 2rem;
+        border-radius: 3rem;
+        transition: background-color 0.3s;
+    }
 
+    .header-contactus-btn:hover {
+        background-color: #4190F1;
+    }
+
+    .header-contactus {
+        font-size: 1.5rem;
+    }
+
+    .contact-arrow {
+        width: 36px;
+        height: 30px;
+    }
 }

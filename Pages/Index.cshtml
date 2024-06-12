@@ -17,7 +17,7 @@
     <div class="mission-image">
         <img src="~/images/house.jpg" class="br-12px" />
     </div>
-    <div>
+    <div class="mission-small-container">
         <div class="mission-heading fs-heading teachers-medium lightbg-heading">
             Our Mission
         </div>
@@ -31,13 +31,13 @@
     <div class="fs-heading teachers-medium darkbg-heading text-center">
         Team Philosophy
     </div>
-    <div class="fs-content color-white text-center">
+    <div class="fs-content color-white text-center philosophy-content">
         Our philosophy is built on the belief that hard work defines who we are and that every challenge is an opportunity for growth. We push our limits and constantly strive for improvement. Together, we are shaping the future through dedication, teamwork, and a shared passion for discovery.
     </div>
     <div class="default-btn color-white" id="view-team">View Team</div>
 </div>
 <div class="container-padding flex-centered team-container" id="view-team-target">
-    <div class="team-heading fs-heading teachers-medium lightbg-heading">Meet The Team</div>
+    <div class="text-center fs-heading teachers-medium lightbg-heading">Meet The Team</div>
     <div class="team-members-container">
         @for (int i = 0; i < 8; i++)
         {
@@ -46,11 +46,11 @@
     </div>
 </div>
 <div class="fll-img-container container-padding flex-centered flex-column">
-    <img src="~/images/teamphoto.jpg" class="br-12px" />
+    <div class="fll-image"><img src="~/images/teamphoto.jpg" class="br-12px" /></div>
     <div class="fs-content teachers-medium text-center">FLL Final 2024 Champions, Moldova</div>
 </div>
 <div class="container-100vh container-padding flex-centered more-container">
-    <div>
+    <div class="more-small-container">
         <div class="more-heading fs-heading teachers-medium lightbg-heading">
             More About The Team
         </div>
@@ -66,48 +66,45 @@
     <div class="fs-heading teachers-medium lightbg-heading text-center">Past Achievements</div>
     <div class="past-achievements">
         <div class="achievement-section">
-            <img src="~/images/philosophyimg.jpg" class="br-12px" />
+            <img src="~/images/IMG_0250.jpg" class="br-12px" />
         </div>
         <div class="achievement-section flex-centered">
             <div class="fs-content">
-                Champions 20xx <br />
-                396 point run
+                -Champions 2024 <br />
+                -Double Max Points
             </div>
         </div>
         <div class="achievement-section flex-centered">
             <div class="fs-content">
-                Champions 20xx <br />
-                396 point run
-            </div>
-        </div>
-        <div class="achievement-section">
-            <img src="~/images/philosophyimg.jpg" class="br-12px" />
-        </div>
-        <div class="achievement-section">
-            <img src="~/images/philosophyimg.jpg" class="br-12px" />
-        </div>
-        <div class="achievement-section flex-centered">
-            <div class="fs-content">
-                Champions 20xx <br />
-                396 point run
-            </div>
-        </div>
-        <div class="achievement-section flex-centered">
-            <div class="fs-content">
-                Champions 20xx <br />
-                396 point run
+                -Champions 2023
             </div>
         </div>
         <div class="achievement-section">
-            <img src="~/images/philosophyimg.jpg" class="br-12px" />
+            <img src="~/images/IMG_0251.jpg" class="br-12px" />
+        </div>
+        <div class="achievement-section">
+            <img src="~/images/IMG_0253.jpg" class="br-12px" />
+        </div>
+        <div class="achievement-section flex-centered">
+            <div class="fs-content">
+                -Champions 2022
+            </div>
+        </div>
+        <div class="achievement-section flex-centered">
+            <div class="fs-content">
+                -Champions 2019
+            </div>
+        </div>
+        <div class="achievement-section">
+            <img src="~/images/IMG_0252.jpg" class="br-12px" />
         </div>
     </div>
 </div>
-<div class="container-padding sponsor-section">
+<div class="container-padding sponsor-section flex-centered flex-column">
     <div class="fs-heading teachers-medium lightbg-heading text-center">Our Sponsor</div>
-    <img src="~/images/tekwill.png" />
+    <div class="sponsor-img"><img src="~/images/tekwill.png" /></div>
 </div>
-<div class="container-padding flex-centered contact-section">
+<div class="container-padding flex-centered contact-section" id="contact-button-target">
     <div class="contact-image"><img src="~/images/thankyou.jpg" class="br-12px" /></div>
     <div class="contact-links flex-centered flex-column">
         <div class="fs-heading teachers-medium lightbg-heading text-center">Contact Us</div>

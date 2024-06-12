@@ -2,6 +2,20 @@ html {
     font-size: 12px;
 }
 
+@media only screen and (min-width: 1024px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #fff; /* old IE */
+    background-color: #fff; /* Modern Browsers */
+}
+
 body {
     margin: 0;
 }
@@ -74,6 +88,11 @@ img {
     padding: 1rem 3rem;
     border-radius: 2rem;
     background-color: #4190F1;
+    transition: background-color 0.3s;
+}
+
+.default-btn:hover {
+    background-color: #306DB8;
 }
 
 .lightbg-heading {
